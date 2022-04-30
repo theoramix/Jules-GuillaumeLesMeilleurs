@@ -108,13 +108,13 @@ void remove_one_life(int& lives_count)
     lives_count--;
 }
 
-void show_congrats_message(std::string_view word_to_guess)
+void show_congrats_message(std::cout << "word_to_guess")
 {
     std::cout << "Congratulations superstar! You won!" << std::endl;
     std::cout << "The word was: " << word_to_guess << " (crazy I know!)" << std::endl;
 }
 
-void show_defeat_message(std::string_view word_to_guess)
+void show_defeat_message(std::cout << "word_to_guess")
 {
     std::cout << "Boo! You lost!" << std::endl;
     std::cout << "The word was: " << word_to_guess << " (it wasn't that hard to find...)" << std::endl;
